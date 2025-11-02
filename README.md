@@ -59,8 +59,8 @@ The project compares three different deep learning approaches to identify the mo
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://your-repository-url.git](https://your-repository-url.git)
-    cd your-project-directory
+    git clone https://github.com/PravegChikte/ML-Project.git
+    cd ML-Project
     ```
 2.  **Install Dependencies:**
     ```bash
