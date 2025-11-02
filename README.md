@@ -21,6 +21,7 @@ This project explores three different Convolutional Neural Network (CNN) archite
 ## Dataset Source
 
 * **Source:** The data used is a subset of the **ISIC (International Skin Imaging Collaboration) 2019 Training Input** dataset. The notebook specifically uses a small, pre-split version of the data, referred to as `Split_smol`.
+* You can download the dataset from https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic
 * **Data Size:** The exact number of images is not specified, but the training logs for the main model show 18 batches, and the test logs show 6 batches, indicating a relatively small dataset.
 * **Preprocessing:** To ensure uniformity and compatibility with the deep learning models, all images in the dataset underwent the following preprocessing steps:
     * Images were converted to the 'RGB' color format.
