@@ -115,12 +115,12 @@ The three models were trained for 5 epochs and evaluated on the held-out test se
 * **Overfitting Analysis:**
     The training and validation plots for all models show a clear and significant overfitting problem. The training accuracy climbs rapidly (e.g., ~74% for DenseNet) while the validation accuracy remains low and flat (e.g., ~20% for DenseNet). This indicates the models are memorizing the small training dataset and are not generalizing to new, unseen images.
 
-    ![DenseNet Training vs Validation Plot](https://i.imgur.com/example.png) *Accuracy and Loss curves for the DenseNet121 model, showing a large gap between training (blue/orange) and validation (green/red) metrics.*
+     *Accuracy and Loss curves for the DenseNet121 model, showing a large gap between training (blue/orange) and validation (green/red) metrics.*
 
 * **Prediction Analysis:**
     A confusion matrix was generated for the DenseNet model's predictions on the test set. This matrix helps visualize which classes are most often confused (e.g., if 'Melanoma' is frequently misclassified as 'Benign keratosis').
 
-    ![DenseNet Confusion Matrix](https://i.imgur.com/example2.png) ## Conclusion
+## Conclusion
 
 This project successfully implemented and compared three deep learning models for skin lesion classification.
 
